@@ -7,8 +7,8 @@ console.log('\nPalindromes found:');
 
 for (let i = upperBound; i >= lowerBound; i--) {
    for (let j = i; j >= lowerBound; j--) {
-      let number = i * j;
-      if ((i % 11 === 0 || j % 11 === 0) && maxPalindrome < number && isPalindrome(number)) {
+      let number = i % 11 !== 0 && j % 11 !== 0 ? -1 : i * j;
+      if (maxPalindrome < number && isPalindrome(number)) {
          found++;
          maxPalindrome = number;
          first = i;
