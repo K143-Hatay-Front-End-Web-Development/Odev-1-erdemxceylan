@@ -1,0 +1,93 @@
+<div id='face'>
+  <div id='chin'></div>
+</div>
+<div id='nose'>
+   <div id='hole'></div>
+   <div id='hole'></div>
+</div>
+<div id='eyes'>
+   <div id='eye'>
+      <div id='white'>
+         <div id='pupil'></div>
+      </div>
+   </div>
+   <div id='eye'>
+      <div id='white'>
+         <div id='pupil'></div>
+      </div>
+   </div>
+</div>
+
+<style>
+body {
+   background: #293462;
+}
+  
+#face {
+   position: relative;
+   top: 102px;
+   overflow: hidden;
+   width: 150px;
+   height: 100px;
+   margin: auto;
+   border-radius: 80px;
+   background: #A64942;
+}
+
+#chin {
+   height: 70px;
+   border-bottom-left-radius: 50% 100%;
+   border-bottom-right-radius: 50% 100%;
+   transform: scaleX(1.6);
+   background: #FE5F55;
+}
+
+#nose {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   top: 52px;
+   left: 177px;
+   width: 30px;
+   background: #FE5F55;
+}
+  
+#hole,
+#pupil {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background: #293462;
+   z-index: 3;
+}
+
+#eyes,
+#eye,
+#white {
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+}
+
+#eyes {
+   justify-content: space-between;
+   position: fixed;
+   top: 85px;
+   left: 140px;
+   width: 120px;
+}
+
+#eye{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: #FE5F55;
+}
+
+#white {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background: #FFF1C1;
+  }
+</style>
