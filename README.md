@@ -2,12 +2,17 @@
 
 - Ödev-1: cssbattle.dev'de **'Battle #13 - #70 Froggy'** kodunun yazılması [Bu Linkten Ulaşabilirsiniz](https://cssbattle.dev/play/70)
 
+### Result
+
+![frog](/assets/frog.jpg)
+
+- Ödev-2: Projecteuler.net'teki #4 numaralı soru çözülecek [Bu Linkten Ulaşabilirsiniz](https://projecteuler.net/problem=4)
+
 Algorithm solves for the general case:
 
 Input: n
 
 Output: the greatest palindrome which is obtained by the product of two n-digits numbers.
-
 
 Our algorithm is brute-force with 3 improvements:
 
@@ -17,9 +22,9 @@ Our algorithm is brute-force with 3 improvements:
 
 2. It takes advantage of the commutative property of multiplication
 
-   For example when n = 3, once it checks 999 _ 998, it doesn’t check 998 _ 999.
+   For example when n = 3, once it checks 999 \* 998, it doesn’t check 998 \* 999.
 
-   That reduces the number of loops from 900 _ 900 = 810,000 times to 900 + (900 _ 899) / 2 = 405,450
+   That reduces the number of loops from 900 \* 900 = 810,000 times to 900 + (900 \* 899) / 2 = 405,450
 
 3. Once it found a palindrome, it only checks the multiplication of the numbers between the 2 factors of that palindrome
 
@@ -38,5 +43,3 @@ Our algorithm is brute-force with 3 improvements:
 | 6   | 999,999 ⋅ 999,001     | 999,000,000,999         | 498,502           |
 | 7   | 9,998,017 ⋅ 9,997,647 | 99,956,644,665,999      | 207,357,000       |
 | …   | …                     | …                       | …                 |
-
-- Ödev-2: Projecteuler.net'teki #4 numaralı soru çözülecek [Bu Linkten Ulaşabilirsiniz](https://projecteuler.net/problem=4)
