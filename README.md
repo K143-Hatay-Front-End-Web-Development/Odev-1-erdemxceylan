@@ -22,9 +22,9 @@ Our algorithm is brute-force with 3 improvements:
 
 2. It takes advantage of the commutative property of multiplication
 
-   For example when n = 3, once it checks 999 _ 998, it doesn’t check 998 _ 999.
+   For example when n = 3, once it checks 999 \* 998, it doesn’t check 998 \* 999.
 
-   That reduces the number of loops from 900 _ 900 = 810,000 times to 900 + (900 _ 899) / 2 = 405,450
+   That reduces the number of loops from 900 \* 900 = 810,000 times to 900 + (900 \* 899) / 2 = 405,450
 
 3. Once it found a palindrome, it only checks the multiplication of the numbers between the 2 factors of that palindrome
 
