@@ -1,5 +1,7 @@
 ## Ödev 1
 
+### Result
+
 - Ödev-1: cssbattle.dev'de **'Battle #13 - #70 Froggy'** kodunun yazılması [Bu Linkten Ulaşabilirsiniz](https://cssbattle.dev/play/70)
 
 ![frog](/assets/frog.jpg)
