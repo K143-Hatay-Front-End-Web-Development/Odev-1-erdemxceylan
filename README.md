@@ -27,8 +27,7 @@ Our algorithm is brute-force with 3 improvements:
    That reduces the number of loops significantly.
 
 ### Result
-
----
+-
 
 | n   | Multipliers           | The greatest palindrome | Maximum iteration |
 | --- | --------------------- | ----------------------- | ----------------- |
