@@ -8,6 +8,7 @@ Input: n
 
 Output: the greatest palindrome which is obtained by the product of two n-digits numbers.
 
+
 Our algorithm is brute-force with 3 improvements:
 
 1. It takes advantage of the fact that palindromes are divisible by 11
@@ -27,7 +28,7 @@ Our algorithm is brute-force with 3 improvements:
    That reduces the number of loops significantly.
 
 ### Result
--
+--
 
 | n   | Multipliers           | The greatest palindrome | Maximum iteration |
 | --- | --------------------- | ----------------------- | ----------------- |
