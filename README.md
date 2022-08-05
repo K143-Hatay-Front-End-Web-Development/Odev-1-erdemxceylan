@@ -2,6 +2,10 @@
 
 - Ödev-1: cssbattle.dev'de **'Battle #13 - #70 Froggy'** kodunun yazılması [Bu Linkten Ulaşabilirsiniz](https://cssbattle.dev/play/70)
 
+(/assets/frog.jpg)
+
+- Ödev-2: Projecteuler.net'teki #4 numaralı soru çözülecek [Bu Linkten Ulaşabilirsiniz](https://projecteuler.net/problem=4)
+
 Algorithm solves for the general case:
 
 Input: n
@@ -28,8 +32,6 @@ Our algorithm is brute-force with 3 improvements:
 
 ### Result
 
----
-
 | n   | Multipliers           | The greatest palindrome | Maximum iteration |
 | --- | --------------------- | ----------------------- | ----------------- |
 | 2   | 99 ⋅ 91               | 9,009                   | 37                |
@@ -39,5 +41,3 @@ Our algorithm is brute-force with 3 improvements:
 | 6   | 999,999 ⋅ 999,001     | 999,000,000,999         | 498,502           |
 | 7   | 9,998,017 ⋅ 9,997,647 | 99,956,644,665,999      | 207,357,000       |
 | …   | …                     | …                       | …                 |
-
-- Ödev-2: Projecteuler.net'teki #4 numaralı soru çözülecek [Bu Linkten Ulaşabilirsiniz](https://projecteuler.net/problem=4)
